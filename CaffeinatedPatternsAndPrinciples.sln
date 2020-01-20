@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyDependencyInjection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithoutStrategy", "src\Strategy\WithoutStrategy\WithoutStrategy.csproj", "{D2BDD5B3-8C6E-46BA-BE4B-97979B010EB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{6B9EF8AF-1768-4796-9BB5-779A1B41906B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderBasic", "src\Builder\BuilderBasic\BuilderBasic.csproj", "{B00D41EA-7451-438A-AAA6-BF27AB072F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +45,10 @@ Global
 		{D2BDD5B3-8C6E-46BA-BE4B-97979B010EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2BDD5B3-8C6E-46BA-BE4B-97979B010EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2BDD5B3-8C6E-46BA-BE4B-97979B010EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B00D41EA-7451-438A-AAA6-BF27AB072F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B00D41EA-7451-438A-AAA6-BF27AB072F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B00D41EA-7451-438A-AAA6-BF27AB072F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B00D41EA-7451-438A-AAA6-BF27AB072F30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{813C70B6-E72A-458B-99C0-DD74B75DB0FE} = {B05A094C-37A7-46EB-BC07-B71C3439252D}
 		{53200FDB-B58F-438C-A947-DB298C78F69F} = {B05A094C-37A7-46EB-BC07-B71C3439252D}
 		{D2BDD5B3-8C6E-46BA-BE4B-97979B010EB8} = {B05A094C-37A7-46EB-BC07-B71C3439252D}
+		{B00D41EA-7451-438A-AAA6-BF27AB072F30} = {6B9EF8AF-1768-4796-9BB5-779A1B41906B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6120B31B-3D4F-405B-9F82-01852E095956}
