@@ -1,6 +1,6 @@
 # SQL Queue Manager
 
-This is a simple queue using a single SQL table that allows graceful failure if there is a failure in processing in the middle, using a LockUntil column that will allow it to be reprocessed if the lock is not extended or the queue item is popped from the Queue.
+This is a simple queue using a single SQL table that allows graceful failure if there is a failure in processing in the middle, using a LockUntil column that will allow it to be reprocessed if the lock is not extended or the queue item is not popped from the Queue.
 
 # Structure
 
